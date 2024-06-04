@@ -11,9 +11,6 @@ import numpy as np
 df = pd.read_csv("MARKET_Car_Prices_clean.csv")
 st.set_page_config(layout="wide")
 
-# Data overview
-st.header("Data overview")
-st.table(df.head())
 
 # Histograms
 st.header("Histogram of:")
